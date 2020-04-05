@@ -6,7 +6,7 @@ The well-known TodoMVC built with Vue and Vuex in a structured and testable way.
 
 ![TodoMVC Vue](./images/screenshot.png "TodoMVC Vue")
 
-[Edit and try it out online](https://codesandbox.io/s/github/blacksonic/todoapp-vue)
+[Edit and try it out online](https://codesandbox.io/s/github/blacksonic/todomvc-vue)
 
 ## Concepts and tools covered
 
