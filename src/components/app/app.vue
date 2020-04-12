@@ -18,7 +18,12 @@ import CopyRight from '../copy-right/copy-right.vue';
 import { TodoLocal } from '../../services/todo-local';
 
 export default {
-  components: { CopyRight, Header, List, Footer },
+  components: {
+    CopyRight,
+    Header,
+    List,
+    Footer
+  },
   computed: {
     ...mapState(['todos'])
   },

@@ -1,5 +1,5 @@
-import { ACTION_TYPES } from '../../constants/action-types';
 import { v4 as uuidv4 } from 'uuid';
+import { ACTION_TYPES } from '../../constants/action-types';
 import { selectCompleted, selectNotCompleted } from '../getters/todo';
 
 export const todosMutations = {

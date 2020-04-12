@@ -1,5 +1,6 @@
 <script>
 import { mapActions } from 'vuex';
+
 const ENTER_KEY = 'Enter';
 
 export default {
