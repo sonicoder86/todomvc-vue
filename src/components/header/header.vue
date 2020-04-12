@@ -1,26 +1,26 @@
 <script>
-  import { mapActions } from 'vuex';
-  const ENTER_KEY = 'Enter';
+import { mapActions } from 'vuex';
+const ENTER_KEY = 'Enter';
 
-  export default {
-    data: () => ({
-      name: ''
-    }),
-    methods: {
-      handleChange(event) {
-        this.name = event.target.value;
-      },
-      handleSubmit(event) {
-        if (event.key !== ENTER_KEY) {
-          return;
-        }
+export default {
+  data: () => ({
+    name: ''
+  }),
+  methods: {
+    handleChange(event) {
+      this.name = event.target.value;
+    },
+    handleSubmit(event) {
+      if (event.key !== ENTER_KEY) {
+        return;
+      }
 
-        this.onCreate(this.name);
-        this.name = '';
-      },
-      ...mapActions(['onCreate'])
-    }
-  };
+      this.onCreate(this.name);
+      this.name = '';
+    },
+    ...mapActions(['onCreate'])
+  }
+};
 </script>
 <template>
   <header class="header">
