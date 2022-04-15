@@ -21,7 +21,7 @@ module.exports = {
     'import/no-extraneous-dependencies': 0
   },
   parserOptions: {
-    parser: 'babel-eslint'
+    parser: '@babel/eslint-parser'
   },
   overrides: [
     {
