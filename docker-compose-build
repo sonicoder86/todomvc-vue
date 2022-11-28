@@ -1,0 +1,2 @@
+# Build the image and start the container 
+docker-compose up
