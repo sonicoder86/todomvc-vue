@@ -1,0 +1,4 @@
+# Build the image: docker build -t <image-name> <relative-path-to-dockerfile>
+docker build -t client . 
+# Run the image: docker container run -p <host port:container port> <image-name>  
+docker container run -p 8900:8900 client
