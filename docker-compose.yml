@@ -7,5 +7,6 @@ services:
     volumes:
       - ./:/app
     ports:
-      - 8900:8900
+      # - 8900:8900
+      - 9000:9000
     command: sh -c "npm install && npm start"
